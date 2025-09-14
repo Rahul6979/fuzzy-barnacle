@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clove Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Clove Weather Report</h1>
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <button id="search-button">Search</button>
+        </div>
+        <div class="weather-report" id="weather-report">
+            <h2 id="city-name"></h2>
+            <p id="date"></p>
+            <div class="weather-icon-container">
+                <img id="weather-icon" src="" alt="Weather icon">
+                <p id="description"></p>
+            </div>
+            <p id="temperature"></p>
+            <div class="details">
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Wind Speed: <span id="wind-speed"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
